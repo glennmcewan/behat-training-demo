@@ -10,4 +10,5 @@ To run Behat tests:
 `vendor/bin/behat`
 
 ## TODO
-Write up instructions on how to set up Selenium.
+- [ ] Write up instructions on how to set up Selenium.
+- [ ] Improve ApplicationStateContext; currently a very **wrong** way of truncating the DB
