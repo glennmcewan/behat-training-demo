@@ -1,0 +1,23 @@
+default:
+  suites:
+    default:
+      contexts:
+        - Behat\MinkExtension\Context\MinkContext
+        - features\bootstrap\ApplicationStateContext
+        - features\bootstrap\TasksContext
+
+  extensions:
+    Behat\MinkExtension:
+      base_url: 'http://l5-todo.dev'
+      browser_name: 'chrome'
+
+      sessions:
+        default:
+          selenium2:
+            wd_host: 'http://localhost:4444/wd/hub'
+            capabilities:
+              platform: 'WINDOWS'
+              version: ''
+              browser: 'chrome'
+              browserName: 'chrome'
+    Cjm\Behat\StepThroughExtension: ~
