@@ -1,15 +1,13 @@
-# Laravel Quickstart - Basic
+# Behat Training
+This is the repo created to demonstrate how we can use Behat on a very simple Laravel 5 todo app.
 
-## Quck Installation
+- `git clone`
+- `composer install`
+- Set DB credentials in `.env` file
+- `php artisan migrate`
 
-    git clone https://github.com/laravel/quickstart-basic quickstart
+To run Behat tests:
+`vendor/bin/behat`
 
-    cd quickstart
-
-    composer install
-
-    php artisan migrate
-
-    php artisan serve
-
-[Complete Tutorial](https://laravel.com/docs/5.2/quickstart)
+## TODO
+Write up instructions on how to set up Selenium.
