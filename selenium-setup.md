@@ -63,17 +63,17 @@ Now you have the dependencies, you will need to register them with Behat. Add th
 ```
 extensions:
     Behat\MinkExtension:
-		    base_url: 'http://localhost:8000'
-				browser_name: 'chrome'
-				sessions:
-				    default:
-						    selenium2:
-								    wd_host: 'http://localhost:4444/wd/hub'
-										capabilities:
-										    platform: 'WINDOWS'
-												version: ''
-												browser: 'chrome'
-												browserName: 'chrome'
+        base_url: 'http://localhost:8000'
+            browser_name: 'chrome'
+            sessions:
+                default:
+                    selenium2:
+                        wd_host: 'http://localhost:4444/wd/hub'
+                        capabilities:
+                            platform: 'WINDOWS'
+                                version: ''
+                                browser: 'chrome'
+                                browserName: 'chrome'
 ```
 
 **Note**: you may need to tweak the above configuration to suit your setup; the `base_url` and `wd_host` parameters may be different in your setup.
