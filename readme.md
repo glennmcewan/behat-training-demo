@@ -9,6 +9,11 @@ This is the repo created to demonstrate how we can use Behat on a very simple La
 To run Behat tests:
 `vendor/bin/behat`
 
+## Selenium Setup Instructions
+These are documented in a separate file to keep things clean.
+
+You can view the file in this repo: [selenium-setup.md](selenium-setup.md).
+
 ## TODO
-- [ ] Write up instructions on how to set up Selenium.
+- [x] Write up instructions on how to set up Selenium.
 - [ ] Improve ApplicationStateContext; currently a very **wrong** way of truncating the DB
